@@ -3,6 +3,8 @@
 ![Image](src/OriGene.png)
 | [Website](https://GENTEL-lab.io/OriGene) | [Paper](https://www.paperexample.com) | [Code](https://github.com/GENTEL-lab/OriGene) |
 
+## OriGene Overview
+![Image](src/OriGene_architecture.jpg)
 Therapeutic target discovery remains one of the most critical yet intuition-driven stages in drug development. Despite the growing availability of 
 multi-omics and functional genomics data, current computational approaches lack a generalizable framework for mechanistically guided target 
 nomination across disease types. Here, we present **OriGene**, a self-evolving multi-agent system that functions as a virtual disease biologist to 
@@ -13,3 +15,9 @@ outperforms existing research agents, network- and embedding-based approaches on
 studies demonstrate its ability to recover both clinically validated and previously overlooked targets. OriGene establishes a scalable framework for 
 AI-assisted disease mechanism inference and therapeutic hypothesis generation.
 
+## TRQA Benchmark Description
+![Image](src/OriGene_benchmark.jpg)
+
+The **TRQA** benchmark is an evaluation dataset for agent systems, designed to assess their biomedical knowledge and target identification skills. The dataset comprises two sub-datasets: ***TRQA-lit*** and ***TRQA-db***. TRQA-lit contains 172 multiple-choice questions and 1,108 short-answer questions, which are derived from biomedical literature through LLM filtering and expert curation. TRQA-db includes 641 short-answer questions generated from structured databases using human-designed templates and extraction rules. Representative question examples with answers are provided. Performance evaluation results demonstrate the accuracy for multiple-choice questions and the average recall for short-answer questions from both literature and database sources across various systems. Human performance benchmarks are also included for reference, covering groups with differing levels of expertise.
+
+## The full source code is coming soon!
