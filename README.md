@@ -20,4 +20,16 @@ AI-assisted disease mechanism inference and therapeutic hypothesis generation.
 
 The **TRQA** benchmark is an evaluation dataset for agent systems, designed to assess their biomedical knowledge and target identification skills. The dataset comprises two sub-datasets: ***TRQA-lit*** and ***TRQA-db***. TRQA-lit contains 172 multiple-choice questions and 1,108 short-answer questions, which are derived from biomedical literature through LLM filtering and expert curation. TRQA-db includes 641 short-answer questions generated from structured databases using human-designed templates and extraction rules. Representative question examples with answers are provided. Performance evaluation results demonstrate the accuracy for multiple-choice questions and the average recall for short-answer questions from both literature and database sources across various systems. Human performance benchmarks are also included for reference, covering groups with differing levels of expertise.
 
+| Method | TRQA-lit | TRQA-db |
+|----------|----------|----------|
+| OriGene   |          |          |
+| DeepSeek-R1    |          |          |
+| GPT-4o    |          |          |
+| DeepSeek-V3    |          |          |
+| Gemini-2.5-pro    |          |          |
+| TxAgent    |          |          |
+| GPT-4o-search    |          |          |
+| o3-mini    |          |          |
+| Claude-3.7-Sonnet    |          |          |
+
 ## The full source code is coming soon!
