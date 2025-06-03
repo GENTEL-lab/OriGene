@@ -6,7 +6,7 @@
 
 # OriGene: A Self-Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery
 
-![Image](src/OriGene.png)
+![Image](src/OriGene_whitespace.png)
 | [Homepage](https://GENTEL-lab.io/OriGene) | [Paper](https://www.paperexample.com) | [Code](https://github.com/GENTEL-lab/OriGene) | [Hugging Face Benchmark](https://huggingface.co/datasets/GENTEL-Lab/TRQA/) | 
 
 ## OriGene Overview
