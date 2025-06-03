@@ -1,4 +1,4 @@
-# OriGene: A Self-Evolving Virtual Disease Biologist for Mechanism-Guided Therapeutic Target Discovery
+# OriGene: A Self-Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery
 
 ![Image](src/OriGene.png)
 | [Website](https://GENTEL-lab.io/OriGene) | [Paper](https://www.paperexample.com) | [Code](https://github.com/GENTEL-lab/OriGene) | [Hugging Face Benchmark](https://huggingface.co/datasets/GENTEL-Lab/TRQA/) | 
@@ -27,14 +27,14 @@ a scalable framework for AI-assisted disease mechanism inference and therapeutic
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
 |--------------------|----------------------------------|--------------------------------|------------------|
 | Origene            | 0.601                            | 0.826                          | 0.721            |
-| DeepSeek-R1        | 0.548                            | 0.714                          | 0.446            |
-| GPT-4o             | 0.512                            | 0.696                          | 0.392            |
-| DeepSeek-V3        | 0.541                            | 0.768                          | 0.466            |
-| Gemini-2.5-pro     | 0.529                            | 0.678                          | 0.359            |
-| TxAgent            | 0.190                            | 0.472                          | 0.426            |
-| GPT-4o-search      | 0.531                            | 0.651                          | 0.493            |
 | o3-mini            | 0.578                            | 0.720                          | 0.487            |
 | Claude-3.7-Sonnet  | 0.558                            | 0.695                          | 0.504            |
+| DeepSeek-R1        | 0.548                            | 0.714                          | 0.446            |
+| DeepSeek-V3        | 0.541                            | 0.768                          | 0.466            |
+| GPT-4o-search      | 0.531                            | 0.651                          | 0.493            |
+| Gemini-2.5-pro     | 0.529                            | 0.678                          | 0.359            |
+| GPT-4o             | 0.512                            | 0.696                          | 0.392            |
+| TxAgent            | 0.190                            | 0.472                          | 0.426            |
 | Human Group 3 (PhD + 3-5 year exp.)  | 0.523                            | ✗                          | ✗            |
 | Human Group 2 (PhD + 1-3 year exp.)  | 0.378                            | ✗                          | ✗            |
 | Human Group 1 (senior PhD candidates)  | 0.215                            | ✗                          | ✗            |
