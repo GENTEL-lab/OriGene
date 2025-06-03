@@ -20,16 +20,20 @@ AI-assisted disease mechanism inference and therapeutic hypothesis generation.
 
 The **TRQA** benchmark is an evaluation dataset for agent systems, designed to assess their biomedical knowledge and target identification skills. The dataset comprises two sub-datasets: ***TRQA-lit*** and ***TRQA-db***. TRQA-lit contains 172 multiple-choice questions and 1,108 short-answer questions, which are derived from biomedical literature through LLM filtering and expert curation. TRQA-db includes 641 short-answer questions generated from structured databases using human-designed templates and extraction rules. Representative question examples with answers are provided. Performance evaluation results demonstrate the accuracy for multiple-choice questions and the average recall for short-answer questions from both literature and database sources across various systems. Human performance benchmarks are also included for reference, covering groups with differing levels of expertise.
 
-| Method | TRQA-lit | TRQA-db |
-|----------|----------|----------|
-| OriGene   |          |          |
-| DeepSeek-R1    |          |          |
-| GPT-4o    |          |          |
-| DeepSeek-V3    |          |          |
-| Gemini-2.5-pro    |          |          |
-| TxAgent    |          |          |
-| GPT-4o-search    |          |          |
-| o3-mini    |          |          |
-| Claude-3.7-Sonnet    |          |          |
+## Target Research-related Question Answering (TRQA) benchmark leader board
+| Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
+|--------------------|----------------------------------|--------------------------------|------------------|
+| Origene            | 0.601                            | 0.826                          | 0.721            |
+| DeepSeek-R1        | 0.548                            | 0.714                          | 0.446            |
+| GPT-4o             | 0.512                            | 0.696                          | 0.392            |
+| DeepSeek-V3        | 0.541                            | 0.768                          | 0.466            |
+| Gemini-2.5-pro     | 0.529                            | 0.678                          | 0.359            |
+| TxAgent            | 0.190                            | 0.472                          | 0.426            |
+| GPT-4o-search      | 0.531                            | 0.651                          | 0.493            |
+| o3-mini            | 0.578                            | 0.720                          | 0.487            |
+| Claude-3.7-Sonnet  | 0.558                            | 0.695                          | 0.504            |
+| Human Group 3 (PhD + 3-5 year exp.)  | 0.523                            | ✗                          | ✗            |
+| Human Group 2 (PhD + 1-3 year exp.)  | 0.378                            | ✗                          | ✗            |
+| Human Group 1 (senior PhD candidates)  | 0.215                            | ✗                          | ✗            |
 
 ## The full source code is coming soon!
