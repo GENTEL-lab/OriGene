@@ -18,7 +18,10 @@ AI-assisted disease mechanism inference and therapeutic hypothesis generation.
 ## TRQA Benchmark Description
 ![Image](src/OriGene_benchmark.jpg)
 
-The **TRQA** benchmark is an evaluation dataset for agent systems, designed to assess their biomedical knowledge and target identification skills. The dataset comprises two sub-datasets: ***TRQA-lit*** and ***TRQA-db***. TRQA-lit contains 172 multiple-choice questions and 1,108 short-answer questions, which are derived from biomedical literature through LLM filtering and expert curation. TRQA-db includes 641 short-answer questions generated from structured databases using human-designed templates and extraction rules. Representative question examples with answers are provided. Performance evaluation results demonstrate the accuracy for multiple-choice questions and the average recall for short-answer questions from both literature and database sources across various systems. Human performance benchmarks are also included for reference, covering groups with differing levels of expertise.
+**Target Research-related Question Answering (TRQA) benchmark for evaluating biomedical knowledge and target identification skillsets.**
+**(A)** Overview of TRQA benchmark comprising two complementary datasets: TRQA-lit derives questions from biomedical literature through LLM filtering and expert curation, yielding 172 multiple-choice and 1,108 short-answer questions; TRQA-db generates 641 short-answer questions from structured databases using human-designed templates and extraction rules.
+**(B)** Representative question examples from both datasets with corresponding answers.
+**(C-E)** Performance evaluation results showing accuracy for multiple-choice questions **(C)** and average recall for short-answer questions from literature **(D)** and database sources **(E)** across different systems, with human performance benchmarks indicated for reference groups of varying expertise levels.
 
 ## Target Research-related Question Answering (TRQA) benchmark leader board
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
