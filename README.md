@@ -4,7 +4,7 @@
 | [Homepage](https://GENTEL-lab.io/OriGene) | [Paper](https://www.paperexample.com) | [Code](https://github.com/GENTEL-lab/OriGene) | [Hugging Face Benchmark](https://huggingface.co/datasets/GENTEL-Lab/TRQA/) | 
 
 ## OriGene Overview
-![Image](src/OriGene_architecture.jpg)
+![Image](src/OriGene_overview.jpg)
 Therapeutic target discovery remains one of the most critical yet intuition-driven stages in drug development. We present **OriGene**, a self-evolving multi-agent system that functions as a virtual disease biologist to 
 identify and prioritize therapeutic targets at scale. 
 
