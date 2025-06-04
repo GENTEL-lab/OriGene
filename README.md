@@ -11,7 +11,7 @@ identify and prioritize therapeutic targets at scale.
 ## TRQA Benchmark Description
 To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions specific to therapeutic target identification tasks across multiple disease areas. 
 
-![Image](src/benchmark_what.jpg)
+![Image](src/benchmark_construction.jpg)
 ![Image](src/benchmark_description.jpg)
 
 **Target Research-related Question Answering (TRQA) benchmark for evaluating biomedical knowledge and target identification skillsets.**
@@ -28,8 +28,6 @@ covering fundamental biology, disease biology, clinical medicine, and pharmacolo
 TRQA-db is designed for  for systematically evaluating the effectiveness of information retrieval, integration, and reasoning among 
 existing methods when addressing the competitive landscape investigation problem
 It contains 641 short-answer QAs, which mainly focus on key competitive information of drug R\&D pipelines and clinical trials.
-
-![Image](src/benchmark_construction.jpg)
 
 ## Target Research-related Question Answering (TRQA) benchmark leader board
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
