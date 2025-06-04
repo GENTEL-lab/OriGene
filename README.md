@@ -15,9 +15,19 @@ To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions spe
 ![Image](src/benchmark_description.jpg)
 
 **Target Research-related Question Answering (TRQA) benchmark for evaluating biomedical knowledge and target identification skillsets.**
-**(A)** Overview of TRQA benchmark comprising two complementary datasets: TRQA-lit derives questions from biomedical literature through LLM filtering and expert curation, yielding 172 multiple-choice and 1,108 short-answer questions; TRQA-db generates 641 short-answer questions from structured databases using human-designed templates and extraction rules.
-**(B)** Representative question examples from both datasets with corresponding answers.
-**(C-E)** Performance evaluation results showing accuracy for multiple-choice questions **(C)** and average recall for short-answer questions from literature **(D)** and database sources **(E)** across different systems, with human performance benchmarks indicated for reference groups of varying expertise levels.
+The TRQA is an evaluation dataset designed to systematically assess the comprehensive capacities of OriGene and other multi-agent 
+frameworks in the field of therapeutic target discovery. TRQA focuses on key areas such as fundamental biology, disease 
+biology, pharmacology, and clinical medicine, aiming to evaluate the ability to conduct effective planning, gather useful information, 
+choose appropriate tools, reason to scientific conclusions, and critically self-evolve. It takes into account information from both 
+extensive research literature and competitive landscape data related to drug R&D pipelines and clinical trials. 
+
+TRQA consists of two sub-datasets: TRQA-lit, and TRQA-db.  TRQA-lit specifically focuses on research findings related to therapeutic targets, aiming to build a question-answering (QA) dataset 
+from literature corpora that summarizes the latest research progress for well-recognized therapeutic targets.
+It contains 172 multi-choice QAs (forming a core set for quick evaluation of models and humans) and 1,108 short-answer QAs, 
+covering fundamental biology, disease biology, clinical medicine, and pharmacology.
+TRQA-db is designed for  for systematically evaluating the effectiveness of information retrieval, integration, and reasoning among 
+existing methods when addressing the competitive landscape investigation problem
+It contains 641 short-answer QAs, which mainly focus on key competitive information of drug R\&D pipelines and clinical trials.
 
 ## Target Research-related Question Answering (TRQA) benchmark leader board
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
