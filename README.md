@@ -11,7 +11,8 @@ identify and prioritize therapeutic targets at scale.
 ## TRQA Benchmark Description
 To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions specific to therapeutic target identification tasks across multiple disease areas. 
 
-![Image](src/OriGene_benchmark.jpg)
+![Image](src/benchmark_construction.jpg)
+![Image](src/benchmark_description.jpg)
 
 **Target Research-related Question Answering (TRQA) benchmark for evaluating biomedical knowledge and target identification skillsets.**
 **(A)** Overview of TRQA benchmark comprising two complementary datasets: TRQA-lit derives questions from biomedical literature through LLM filtering and expert curation, yielding 172 multiple-choice and 1,108 short-answer questions; TRQA-db generates 641 short-answer questions from structured databases using human-designed templates and extraction rules.
