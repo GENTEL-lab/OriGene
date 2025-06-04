@@ -29,6 +29,8 @@ TRQA-db is designed for  for systematically evaluating the effectiveness of info
 existing methods when addressing the competitive landscape investigation problem
 It contains 641 short-answer QAs, which mainly focus on key competitive information of drug R\&D pipelines and clinical trials.
 
+![Image](src/benchmark_construction.jpg)
+
 ## Target Research-related Question Answering (TRQA) benchmark leader board
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
 |--------------------|----------------------------------|--------------------------------|------------------|
