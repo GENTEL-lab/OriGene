@@ -3,12 +3,12 @@
 ![Image](src/OriGene_whitespace.png)
 | [Homepage](https://GENTEL-lab.io/OriGene) | [Paper](https://www.paperexample.com) | [Code](https://github.com/GENTEL-lab/OriGene) | [Hugging Face Benchmark](https://huggingface.co/datasets/GENTEL-Lab/TRQA/) | 
 
-## OriGene Overview
+## 1. OriGene Overview
 ![Image](src/OriGene_overview.jpg)
 Therapeutic target discovery remains one of the most critical yet intuition-driven stages in drug development. We present **OriGene**, a self-evolving multi-agent system that functions as a virtual disease biologist to 
 identify and prioritize therapeutic targets at scale. 
 
-## TRQA Benchmark Description
+## 2. TRQA Benchmark Description
 To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions specific to therapeutic target identification tasks across multiple disease areas. 
 
 ![Image](src/benchmark_construction.jpg)
@@ -29,7 +29,8 @@ TRQA-db is designed for  for systematically evaluating the effectiveness of info
 existing methods when addressing the competitive landscape investigation problem
 It contains 641 short-answer QAs, which mainly focus on key competitive information of drug R\&D pipelines and clinical trials.
 
-## Target Research-related Question Answering (TRQA) benchmark leader board
+## 3. Evaluation Results
+**Target Research-related Question Answering (TRQA) benchmark leader board**
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
 |--------------------|----------------------------------|--------------------------------|------------------|
 | Origene            | 0.601                            | 0.826                          | 0.721            |
