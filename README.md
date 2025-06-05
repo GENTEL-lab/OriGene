@@ -1,4 +1,4 @@
-# <img src="src/OriGene_Logo.jpg" width="60"/> OriGene: A Self-Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery
+# <img src="assets/OriGene_Logo.jpg" width="60"/> OriGene: A Self-Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery
 
 > **Important**: This is the Beta release of OriGene, the self-evolving multi-agent system that acts as a virtual disease biologist.
 > We also introduce the TRQA Benchmark — a benchmark of 1,921 expert-level questions for evaluating biomedical AI agents.
@@ -6,7 +6,7 @@
 
 <p align="center">
   | <a href="https://GENTEL-lab.io/OriGene">Homepage</a> |
-  <a href="https://www.paperexample.com">Paper</a> |
+  <a href="assets/OriGene.pdf">Paper</a> |
   <a href="https://github.com/GENTEL-lab/OriGene">Code</a> |
   <a href="https://huggingface.co/datasets/GENTEL-Lab/TRQA/">Hugging Face Benchmark</a> |
 </p>
@@ -14,15 +14,15 @@
 
 
 ## 1. OriGene Overview
-![Image](src/OriGene_overview.jpg)
+![Image](assets/OriGene_overview.jpg)
 Therapeutic target discovery remains one of the most critical yet intuition-driven stages in drug development. We present **OriGene**, a self-evolving multi-agent system that functions as a virtual disease biologist to 
 identify and prioritize therapeutic targets at scale. 
 
 ## 2. TRQA Benchmark Description
 To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions specific to therapeutic target identification tasks across multiple disease areas. 
 
-![Image](src/benchmark_construction.jpg)
-![Image](src/benchmark_description.jpg)
+![Image](assets/benchmark_construction.jpg)
+![Image](assets/benchmark_description.jpg)
 
 **Target Research-related Question Answering (TRQA) benchmark for evaluating biomedical knowledge and target identification skillsets.**
 The TRQA is an evaluation dataset designed to systematically assess the comprehensive capacities of OriGene and other multi-agent 
