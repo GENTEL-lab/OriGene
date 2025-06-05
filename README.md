@@ -2,7 +2,7 @@
 
 > **Important**: This is the Beta release of OriGene, the self-evolving multi-agent system that acts as a virtual disease biologist.
 > We also introduce the TRQA Benchmark — a benchmark of 1,921 expert-level questions for evaluating biomedical AI agents.
-> We will continue to release updated code incrementally over time.
+> We will continue to release updated code over time.
 
 <p align="center">
   | <a href="https://GENTEL-lab.io/OriGene">Homepage</a> |
