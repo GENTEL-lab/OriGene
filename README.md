@@ -24,26 +24,26 @@ To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions spe
 ![Image](assets/benchmark_construction.jpg)
 ![Image](assets/benchmark_description.jpg)
 
-**Target Research-related Question Answering (TRQA) benchmark for evaluating biomedical knowledge and target identification skillsets.**
-The TRQA is an evaluation dataset designed to systematically assess the comprehensive capacities of OriGene and other multi-agent 
-frameworks in the field of therapeutic target discovery. TRQA focuses on key areas such as fundamental biology, disease 
-biology, pharmacology, and clinical medicine, aiming to evaluate the ability to conduct effective planning, gather useful information, 
-choose appropriate tools, reason to scientific conclusions, and critically self-evolve. It takes into account information from both 
-extensive research literature and competitive landscape data related to drug R&D pipelines and clinical trials. 
+**Target Research-related Question Answering (TRQA)** is a comprehensive evaluation benchmark designed to assess the capabilities of OriGene and similar systems in biomedical reasoning and target discovery.
 
-TRQA consists of two sub-datasets: TRQA-lit, and TRQA-db.  TRQA-lit specifically focuses on research findings related to therapeutic targets, aiming to build a question-answering (QA) dataset 
-from literature corpora that summarizes the latest research progress for well-recognized therapeutic targets.
-It contains 172 multi-choice QAs (forming a core set for quick evaluation of models and humans) and 1,108 short-answer QAs, 
-covering fundamental biology, disease biology, clinical medicine, and pharmacology.
-TRQA-db is designed for  for systematically evaluating the effectiveness of information retrieval, integration, and reasoning among 
-existing methods when addressing the competitive landscape investigation problem
-It contains 641 short-answer QAs, which mainly focus on key competitive information of drug R\&D pipelines and clinical trials.
+TRQA evaluates core competencies including:  
+- Scientific planning  
+- Information retrieval  
+- Tool selection  
+- Reasoning toward biological conclusions  
+- Critical self-evolution  
+
+It spans domains such as fundamental biology, disease biology, pharmacology, and clinical medicine, integrating both scientific literature and real-world data from drug development pipelines and clinical trials.
+
+**TRQA includes two subsets**:
+- **TRQA-lit**: Focuses on recent research findings. Includes 172 multiple-choice questions (for rapid model/human comparison) and 1,108 short-answer questions covering key biomedical areas.
+- **TRQA-db**: Centers on competitive landscape analysis. Includes 641 short-answer questions that evaluate the ability to retrieve, integrate, and reason over data related to drug R&D and clinical trials.
 
 ## 3. Evaluation Results
 **Target Research-related Question Answering (TRQA) benchmark leader board**
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
 |--------------------|----------------------------------|--------------------------------|------------------|
-| Origene            | 0.601                            | 0.826                          | 0.721            |
+| OriGene            | 0.601                            | 0.826                          | 0.721            |
 | o3-mini            | 0.578                            | 0.720                          | 0.487            |
 | Claude-3.7-Sonnet  | 0.558                            | 0.695                          | 0.504            |
 | DeepSeek-R1        | 0.548                            | 0.714                          | 0.446            |
