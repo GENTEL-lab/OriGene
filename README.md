@@ -13,12 +13,12 @@
 
 
 
-## 🧠1. OriGene Overview
+## 1. OriGene Overview
 ![Image](assets/OriGene_overview.jpg)
 Therapeutic target discovery remains one of the most critical yet intuition-driven stages in drug development. We present **OriGene**, a self-evolving multi-agent system that functions as a virtual disease biologist to 
 identify and prioritize therapeutic targets at scale. 
 
-## 📊2. TRQA Benchmark Description
+## 2. TRQA Benchmark Description
 To evaluate performance, we constructed TRQA, a benchmark of 1,921 questions specific to therapeutic target identification tasks across multiple disease areas. 
 
 ![Image](assets/benchmark_construction.jpg)
@@ -39,7 +39,7 @@ It spans domains such as fundamental biology, disease biology, pharmacology, and
 - **TRQA-lit**: Focuses on recent research findings. Includes 172 multiple-choice questions (for rapid model/human comparison) and 1,108 short-answer questions covering key biomedical areas.
 - **TRQA-db**: Centers on competitive landscape analysis. Includes 641 short-answer questions that evaluate the ability to retrieve, integrate, and reason over data related to drug R&D and clinical trials.
 
-## 🧪3. Evaluation Results
+## 3. Evaluation Results
 **Target Research-related Question Answering (TRQA) benchmark leader board**
 | Method             | TRQA-lit Choice (Core Set) | TRQA-lit Short-Answer  | TRQA-db  |
 |--------------------|----------------------------------|--------------------------------|------------------|
@@ -56,7 +56,7 @@ It spans domains such as fundamental biology, disease biology, pharmacology, and
 | Human Group 2 (PhD + 1-3 year exp.)  | 0.378                            | ✗                          | ✗            |
 | Human Group 1 (senior PhD candidates)  | 0.215                            | ✗                          | ✗            |
 
-## 🧰4. Tools Sets
+## 4. Tools Sets
 
 ![Image](assets/toolsets.jpg)
 
@@ -66,11 +66,11 @@ OriGeneTools integrates over 500 tools to support target discovery and biomedica
 
 - On the right, the same tools are reorganized by **biomedical knowledge domains**: fundamental biology, disease biology, pharmacology, and competitive landscape, reflecting how OriGene supports expert-level reasoning across diverse therapeutic tasks.
 
-## 📄5. License
+## 5. License
 
 This code repository is licensed under [the MIT License](https://github.com/GENTEL-lab/OriGene/blob/main/LICENSE).
 
-## 📬6. Contact
+## 6. Contact
 
 If you have any questions, please raise an issue or contact us at [shuangjia.zheng@sjtu.edu.cn](mailto:shuangjia.zheng@sjtu.edu.cn) or [zhongyuezhang@sjtu.edu.cn](mailto:zhongyuezhang@sjtu.edu.cn).
 
