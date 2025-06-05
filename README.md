@@ -68,7 +68,7 @@ OriGeneTools integrates over 500 tools to support target discovery and biomedica
 
 ## 5. License
 
-This code repository is licensed under [the MIT License](https://github.com/GENTEL-lab/OriGene/blob/main/LICENSE).
+This code repository is licensed under [the Creative Commons Attribution-Non-Commercial ShareAlike International License, Version 4.0 (CC-BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://github.com/GENTEL-lab/OriGene/blob/main/LICENSE.
 
 ## 6. Contact
 
