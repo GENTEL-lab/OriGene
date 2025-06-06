@@ -66,11 +66,14 @@ OriGeneTools integrates over 500 tools to support target discovery and biomedica
 
 - On the right, the same tools are reorganized by **biomedical knowledge domains**: fundamental biology, disease biology, pharmacology, and competitive landscape, reflecting how OriGene supports expert-level reasoning across diverse therapeutic tasks.
 
-## 5. License
+## 5. Demo
+![Image](assets/gif-1080.gif)
+
+## 6. License
 
 This code repository is licensed under [the Creative Commons Attribution-Non-Commercial ShareAlike International License, Version 4.0 (CC-BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://github.com/GENTEL-lab/OriGene/blob/main/LICENSE.
 
-## 6. Contact
+## 7. Contact
 
 If you have any questions, please raise an issue or contact us at [shuangjia.zheng@sjtu.edu.cn](mailto:shuangjia.zheng@sjtu.edu.cn) or [zhongyuezhang@sjtu.edu.cn](mailto:zhongyuezhang@sjtu.edu.cn).
 
