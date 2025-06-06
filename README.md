@@ -77,5 +77,9 @@ This code repository is licensed under [the Creative Commons Attribution-Non-Com
 
 If you have any questions, please raise an issue or contact us at [shuangjia.zheng@sjtu.edu.cn](mailto:shuangjia.zheng@sjtu.edu.cn) or [zhongyuezhang@sjtu.edu.cn](mailto:zhongyuezhang@sjtu.edu.cn).
 
+## 8. Acknowledgements
+
+Thanks to DeepSeek, ChatGPT, Claude, and Gemini for providing powerful language models that made this project possible.
+Special thanks to the human experts who assisted us in benchmarking and evaluating the agent's performance!
 
 ## The full source code is coming soon!
