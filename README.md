@@ -80,6 +80,7 @@ If you have any questions, please raise an issue or contact us at [shuangjia.zhe
 ## 8. Acknowledgements
 
 Thanks to DeepSeek, ChatGPT, Claude, and Gemini for providing powerful language models that made this project possible.
+
 Special thanks to the human experts who assisted us in benchmarking and evaluating the agent's performance!
 
 ## The full source code is coming soon!
