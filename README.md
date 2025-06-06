@@ -6,7 +6,7 @@
 
 <p align="center">
   | <a href="https://gentel-lab.github.io/OriGene-Homepage">Homepage</a> |
-  <a href="https://gentel-lab.github.io/OriGene-Paper/OriGene.pdf">Paper</a> |
+  <a href="https://www.biorxiv.org/content/10.1101/2025.06.03.657658v1.full.pdf">Paper</a> |
   <a href="https://github.com/GENTEL-lab/OriGene">Code</a> |
   <a href="https://huggingface.co/datasets/GENTEL-Lab/TRQA/">Hugging Face Benchmark</a> |
 </p>
