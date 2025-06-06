@@ -69,6 +69,18 @@ OriGeneTools integrates over 500 tools to support target discovery and biomedica
 ## 5. Demo
 ![Image](assets/gif-1080.gif)
 
+## 6. Citing OriGene
+Any publication that discloses findings arising from using this source code, the model parameters or outputs produced by those should cite:
+```
+@article{origene,
+    title={{OriGene}: A Self-Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery},
+    author={Zhang, Zhongyue and Qiu, Zijie and Wu, Yingcheng and Li, Shuya and Wang, Dingyan and Zhou, Zhuomin and An, Duo and Chen, Yuhan and Li, Yu and Wang, Yongbo and Ou, Chubin and Wang, Zichen and Chen, Jack Xiaoyu and Zhang, Bo and Hu, Yusong and Zhang, Wenxin and Wei, Zhijian and Ma, Runze and Liu, Qingwu and Dong, Bo and He, Yuexi and Feng, Qiantai and Bai, Lei and Gao, Qiang and Sun, Siqi and Zheng, Shuangjia},
+    journal={bioRxiv},
+    year={2025},
+    publisher={Cold Spring Harbor Laboratory}
+}
+```
+
 ## 6. License
 
 This code repository is licensed under [the Creative Commons Attribution-Non-Commercial ShareAlike International License, Version 4.0 (CC-BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://github.com/GENTEL-lab/OriGene/blob/main/LICENSE.
