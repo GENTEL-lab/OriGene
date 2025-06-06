@@ -81,15 +81,15 @@ Any publication that discloses findings arising from using this source code, the
 }
 ```
 
-## 6. License
+## 7. License
 
 This code repository is licensed under [the Creative Commons Attribution-Non-Commercial ShareAlike International License, Version 4.0 (CC-BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://github.com/GENTEL-lab/OriGene/blob/main/LICENSE.
 
-## 7. Contact
+## 8. Contact
 
 If you have any questions, please raise an issue or contact us at [shuangjia.zheng@sjtu.edu.cn](mailto:shuangjia.zheng@sjtu.edu.cn) or [zhongyuezhang@sjtu.edu.cn](mailto:zhongyuezhang@sjtu.edu.cn).
 
-## 8. Acknowledgements
+## 9. Acknowledgements
 
 Thanks to DeepSeek, ChatGPT, Claude, and Gemini for providing powerful language models that made this project possible.
 
